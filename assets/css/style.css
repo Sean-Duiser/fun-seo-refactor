@@ -7,38 +7,40 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/*changed .header to header to match semantic tag*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*converted ul li to nav*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
+/*styling hyperlinks*/
+nav a {
+    display: inline-block;
+    margin-left: 9px;
+    padding: 4px 8px;
+    transition: all 243ms ease;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+nav a:hover {
+    background-color: #d9dcd6;
 }
 
 a {
