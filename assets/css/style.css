@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
+title {
+    flex-wrap: wrap;
+}
 body {
     background-color: #d9dcd6;
 }
+
 /*changed .header to header to match semantic tag*/
 header {
     padding: 20px;
