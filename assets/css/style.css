@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* added CSS for the title element so that the text wraps when you hover over your browser tab */
+/* added CSS for the <title> element so that the text wraps when you hover over your browser tab */
 title {
     flex-wrap: wrap;
 }
@@ -30,7 +30,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/*converted ul li to nav*/
+/*converted <ul> <li> to <nav>*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,6 +47,7 @@ nav a {
     transition: all 243ms ease;
 }
 
+/*adding hover effect to hyperlinks*/
 nav a:hover {
     background-color: #d9dcd6;
 }
@@ -85,7 +86,7 @@ p {
     margin-left: 20px;
 }
 
-/* combined benefits and individual benefit class selectors to DRY*/
+/* combined  individual and identical <benefits> class selectors into a single one to DRY*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,17 +100,20 @@ p {
     color: #ffffff;
 }
 
+/* combined individual and identical <benefit> h3 selectors into a single one to DRY */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* combined invididual and identical <benefit> img selectors into a single one to DRY */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* grouped all individual and identical <service> class selectors into a single one to DRY*/
 .service
  {
     margin-bottom: 20px;
@@ -120,7 +124,7 @@ p {
     color: #ffffff;
 }
 
-/* grouped all individual <section> images under one universal selector */
+/* grouped all individual and identical <section> images under one universal selector */
 .service img {
     max-height: 200px;
 }
