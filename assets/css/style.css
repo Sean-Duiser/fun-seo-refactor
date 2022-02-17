@@ -3,9 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
+/* added CSS for the title element so that the text wraps when you hover over your browser tab */
 title {
     flex-wrap: wrap;
 }
+
 body {
     background-color: #d9dcd6;
 }
@@ -26,6 +29,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /*converted ul li to nav*/
 nav {
     padding-top: 15px;
