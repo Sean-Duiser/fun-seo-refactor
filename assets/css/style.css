@@ -11,9 +11,11 @@ title {
 
 body {
     background-color: #d9dcd6;
+    display:flexbox;
 }
 
 /*changed .header to header to match semantic tag*/
+/* added a responsive feature to the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -94,13 +96,18 @@ p {
 /* moved CSS for <service> up as it appears before <benefits> in the HTML*/
 
 /* grouped all individual and identical <service> class selectors into a single one to DRY*/
+
+/* added a responsive element to the service boxes */
 .service {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 /* grouped all individual and identical <section> images under one universal selector */
@@ -109,7 +116,7 @@ p {
 }
 
 /* combined  individual and identical <benefits> class selectors into a single one to DRY*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -125,6 +132,7 @@ p {
 /* combined individual and identical <benefit> h3 selectors into a single one to DRY */
 .benefit h3 {
     margin-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
 }
 
