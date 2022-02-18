@@ -2,7 +2,7 @@
 
 
 ## Description
-The index.html and style.css files contain refactored code that will improve site SEO. I have eliminated some redundant code and ensured the use of semantic HTML elements throughout.
+The index.html and style.css files contain refactored code that will ensure compliance with accessibility standards as well as improve site SEO. I have eliminated some redundant code and ensured the use of semantic HTML elements throughout.
 
 ## Visuals
 ![screenshot of updated page](https://raw.githubusercontent.com/Sean-Duiser/fun-seo-refactor/main/assets/images/website%20screenshot%201.png)
